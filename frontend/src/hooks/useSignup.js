@@ -23,7 +23,7 @@ const useSignup = () => {
     setLoading(true);
     try {
       const res = await fetch(
-        "https://2484d1d7-965f-4234-9c16-685119e29ddb-00-3vnfkc3kz4k62.sisko.replit.dev/api/auth/signup",
+        "api/auth/signup",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
